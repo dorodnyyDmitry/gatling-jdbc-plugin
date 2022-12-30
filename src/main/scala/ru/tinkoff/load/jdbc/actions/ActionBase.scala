@@ -36,3 +36,5 @@ trait ActionBase {
     next ! session.logGroupRequestTimings(sent, received)
   }
 }
+
+abstract class ActionBaseWrapper extends ActionBase

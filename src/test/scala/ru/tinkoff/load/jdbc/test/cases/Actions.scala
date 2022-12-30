@@ -2,8 +2,8 @@ package ru.tinkoff.load.jdbc.test.cases
 
 import io.gatling.core.Predef.{find2Final, stringToExpression, value2Expression}
 import ru.tinkoff.load.jdbc.Predef._
-import ru.tinkoff.load.jdbc.actions
-import ru.tinkoff.load.jdbc.actions.Columns
+import ru.tinkoff.load.jdbc.actions.actions.Columns
+import ru.tinkoff.load.jdbc.actions.actions
 
 import java.time.LocalDateTime
 import java.util.UUID

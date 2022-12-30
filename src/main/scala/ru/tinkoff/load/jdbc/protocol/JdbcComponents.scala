@@ -8,4 +8,6 @@ case class JdbcComponents(client: JDBCClient) extends ProtocolComponents {
   override def onStart: Session => Session = Session.Identity
 
   override def onExit: Session => Unit = _ => ()
+
 }
+
